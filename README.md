@@ -6,3 +6,4 @@ RZLoopView
 [![](https://raw.github.com/ReyZhang/RZScaleplate/master/Screens/2.png)](https://raw.github.com/ReyZhang/RZScaleplate/master/Screens/2.png)
 How to use
 ==========
+how to use
