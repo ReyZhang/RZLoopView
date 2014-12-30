@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2E940FC1A5148E700BB0155 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E940FB1A5148E700BB0155 /* main.m */; };
+		F2E940FF1A5148E700BB0155 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E940FE1A5148E700BB0155 /* AppDelegate.m */; };
+		F2E941021A5148E700BB0155 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E941011A5148E700BB0155 /* ViewController.m */; };
+		F2E941051A5148E700BB0155 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E941031A5148E700BB0155 /* Main.storyboard */; };
+		F2E941071A5148E700BB0155 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E941061A5148E700BB0155 /* Images.xcassets */; };
+		F2E9410A1A5148E700BB0155 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2E941081A5148E700BB0155 /* LaunchScreen.xib */; };
+		F2E941161A5148E700BB0155 /* RZLoopViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E941151A5148E700BB0155 /* RZLoopViewExampleTests.m */; };
+		F2E941221A51496400BB0155 /* RZLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E941211A51496400BB0155 /* RZLoopView.m */; };
+		F2E941251A514E0000BB0155 /* LoopEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E941241A514E0000BB0155 /* LoopEntity.m */; };
+		F2E941281A514FB700BB0155 /* NSMutableArray+RZLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E941271A514FB700BB0155 /* NSMutableArray+RZLoopView.m */; };
+		F2E9412C1A52368800BB0155 /* GuidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E9412B1A52368800BB0155 /* GuidViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2E941101A5148E700BB0155 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2E940EE1A5148E600BB0155 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2E940F51A5148E600BB0155;
+			remoteInfo = RZLoopViewExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2E940F61A5148E600BB0155 /* RZLoopViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RZLoopViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E940FA1A5148E700BB0155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2E940FB1A5148E700BB0155 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2E940FD1A5148E700BB0155 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2E940FE1A5148E700BB0155 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2E941001A5148E700BB0155 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F2E941011A5148E700BB0155 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2E941041A5148E700BB0155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2E941061A5148E700BB0155 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F2E941091A5148E700BB0155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F2E9410F1A5148E700BB0155 /* RZLoopViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RZLoopViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E941141A5148E700BB0155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2E941151A5148E700BB0155 /* RZLoopViewExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZLoopViewExampleTests.m; sourceTree = "<group>"; };
+		F2E941201A51496400BB0155 /* RZLoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZLoopView.h; sourceTree = "<group>"; };
+		F2E941211A51496400BB0155 /* RZLoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZLoopView.m; sourceTree = "<group>"; };
+		F2E941231A514E0000BB0155 /* LoopEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopEntity.h; sourceTree = "<group>"; };
+		F2E941241A514E0000BB0155 /* LoopEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoopEntity.m; sourceTree = "<group>"; };
+		F2E941261A514FB700BB0155 /* NSMutableArray+RZLoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+RZLoopView.h"; sourceTree = "<group>"; };
+		F2E941271A514FB700BB0155 /* NSMutableArray+RZLoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+RZLoopView.m"; sourceTree = "<group>"; };
+		F2E9412A1A52368800BB0155 /* GuidViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuidViewController.h; sourceTree = "<group>"; };
+		F2E9412B1A52368800BB0155 /* GuidViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuidViewController.m; sourceTree = "<group>"; };
+		F2E9412D1A525A2200BB0155 /* RZLoopView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RZLoopView-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2E940F31A5148E600BB0155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E9410C1A5148E700BB0155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2E940ED1A5148E600BB0155 = {
+			isa = PBXGroup;
+			children = (
+				F2E940F81A5148E600BB0155 /* RZLoopViewExample */,
+				F2E941121A5148E700BB0155 /* RZLoopViewExampleTests */,
+				F2E940F71A5148E600BB0155 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2E940F71A5148E600BB0155 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2E940F61A5148E600BB0155 /* RZLoopViewExample.app */,
+				F2E9410F1A5148E700BB0155 /* RZLoopViewExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2E940F81A5148E600BB0155 /* RZLoopViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				F2E9411F1A51496400BB0155 /* RZLoopView */,
+				F2E940FD1A5148E700BB0155 /* AppDelegate.h */,
+				F2E940FE1A5148E700BB0155 /* AppDelegate.m */,
+				F2E9412A1A52368800BB0155 /* GuidViewController.h */,
+				F2E9412B1A52368800BB0155 /* GuidViewController.m */,
+				F2E941001A5148E700BB0155 /* ViewController.h */,
+				F2E941011A5148E700BB0155 /* ViewController.m */,
+				F2E941031A5148E700BB0155 /* Main.storyboard */,
+				F2E941061A5148E700BB0155 /* Images.xcassets */,
+				F2E941081A5148E700BB0155 /* LaunchScreen.xib */,
+				F2E940F91A5148E700BB0155 /* Supporting Files */,
+			);
+			path = RZLoopViewExample;
+			sourceTree = "<group>";
+		};
+		F2E940F91A5148E700BB0155 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2E940FA1A5148E700BB0155 /* Info.plist */,
+				F2E940FB1A5148E700BB0155 /* main.m */,
+				F2E9412D1A525A2200BB0155 /* RZLoopView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2E941121A5148E700BB0155 /* RZLoopViewExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2E941151A5148E700BB0155 /* RZLoopViewExampleTests.m */,
+				F2E941131A5148E700BB0155 /* Supporting Files */,
+			);
+			path = RZLoopViewExampleTests;
+			sourceTree = "<group>";
+		};
+		F2E941131A5148E700BB0155 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2E941141A5148E700BB0155 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2E9411F1A51496400BB0155 /* RZLoopView */ = {
+			isa = PBXGroup;
+			children = (
+				F2E941201A51496400BB0155 /* RZLoopView.h */,
+				F2E941211A51496400BB0155 /* RZLoopView.m */,
+				F2E941231A514E0000BB0155 /* LoopEntity.h */,
+				F2E941241A514E0000BB0155 /* LoopEntity.m */,
+				F2E941261A514FB700BB0155 /* NSMutableArray+RZLoopView.h */,
+				F2E941271A514FB700BB0155 /* NSMutableArray+RZLoopView.m */,
+			);
+			path = RZLoopView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2E940F51A5148E600BB0155 /* RZLoopViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2E941191A5148E700BB0155 /* Build configuration list for PBXNativeTarget "RZLoopViewExample" */;
+			buildPhases = (
+				F2E940F21A5148E600BB0155 /* Sources */,
+				F2E940F31A5148E600BB0155 /* Frameworks */,
+				F2E940F41A5148E600BB0155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RZLoopViewExample;
+			productName = RZLoopViewExample;
+			productReference = F2E940F61A5148E600BB0155 /* RZLoopViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2E9410E1A5148E700BB0155 /* RZLoopViewExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2E9411C1A5148E700BB0155 /* Build configuration list for PBXNativeTarget "RZLoopViewExampleTests" */;
+			buildPhases = (
+				F2E9410B1A5148E700BB0155 /* Sources */,
+				F2E9410C1A5148E700BB0155 /* Frameworks */,
+				F2E9410D1A5148E700BB0155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2E941111A5148E700BB0155 /* PBXTargetDependency */,
+			);
+			name = RZLoopViewExampleTests;
+			productName = RZLoopViewExampleTests;
+			productReference = F2E9410F1A5148E700BB0155 /* RZLoopViewExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2E940EE1A5148E600BB0155 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Zhang Rey";
+				TargetAttributes = {
+					F2E940F51A5148E600BB0155 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					F2E9410E1A5148E700BB0155 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = F2E940F51A5148E600BB0155;
+					};
+				};
+			};
+			buildConfigurationList = F2E940F11A5148E600BB0155 /* Build configuration list for PBXProject "RZLoopViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2E940ED1A5148E600BB0155;
+			productRefGroup = F2E940F71A5148E600BB0155 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2E940F51A5148E600BB0155 /* RZLoopViewExample */,
+				F2E9410E1A5148E700BB0155 /* RZLoopViewExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2E940F41A5148E600BB0155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E941051A5148E700BB0155 /* Main.storyboard in Resources */,
+				F2E9410A1A5148E700BB0155 /* LaunchScreen.xib in Resources */,
+				F2E941071A5148E700BB0155 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E9410D1A5148E700BB0155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2E940F21A5148E600BB0155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E941281A514FB700BB0155 /* NSMutableArray+RZLoopView.m in Sources */,
+				F2E941251A514E0000BB0155 /* LoopEntity.m in Sources */,
+				F2E9412C1A52368800BB0155 /* GuidViewController.m in Sources */,
+				F2E941221A51496400BB0155 /* RZLoopView.m in Sources */,
+				F2E941021A5148E700BB0155 /* ViewController.m in Sources */,
+				F2E940FF1A5148E700BB0155 /* AppDelegate.m in Sources */,
+				F2E940FC1A5148E700BB0155 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E9410B1A5148E700BB0155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E941161A5148E700BB0155 /* RZLoopViewExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2E941111A5148E700BB0155 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2E940F51A5148E600BB0155 /* RZLoopViewExample */;
+			targetProxy = F2E941101A5148E700BB0155 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2E941031A5148E700BB0155 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2E941041A5148E700BB0155 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2E941081A5148E700BB0155 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2E941091A5148E700BB0155 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2E941171A5148E700BB0155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2E941181A5148E700BB0155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2E9411A1A5148E700BB0155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RZLoopViewExample/RZLoopView-Prefix.pch";
+				INFOPLIST_FILE = RZLoopViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F2E9411B1A5148E700BB0155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RZLoopViewExample/RZLoopView-Prefix.pch";
+				INFOPLIST_FILE = RZLoopViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F2E9411D1A5148E700BB0155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RZLoopViewExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RZLoopViewExample.app/RZLoopViewExample";
+			};
+			name = Debug;
+		};
+		F2E9411E1A5148E700BB0155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RZLoopViewExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RZLoopViewExample.app/RZLoopViewExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2E940F11A5148E600BB0155 /* Build configuration list for PBXProject "RZLoopViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E941171A5148E700BB0155 /* Debug */,
+				F2E941181A5148E700BB0155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2E941191A5148E700BB0155 /* Build configuration list for PBXNativeTarget "RZLoopViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E9411A1A5148E700BB0155 /* Debug */,
+				F2E9411B1A5148E700BB0155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2E9411C1A5148E700BB0155 /* Build configuration list for PBXNativeTarget "RZLoopViewExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E9411D1A5148E700BB0155 /* Debug */,
+				F2E9411E1A5148E700BB0155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2E940EE1A5148E600BB0155 /* Project object */;
+}
