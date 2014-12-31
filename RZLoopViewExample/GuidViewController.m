@@ -79,16 +79,28 @@
     NSLog(@"page is:%d  total:%d",page,total);
     
     if (loopView.currentPage == total -1) {
-        UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-        btn.layer.borderColor =  [UIColor redColor].CGColor;
-        btn.backgroundColor = [UIColor colorWithRed:1 green:0 blue:0 alpha:0.7];
-        btn.layer.cornerRadius = 10.0;
-        btn.layer.borderWidth = 1.0;
-        [btn setTitle:@"进入应用" forState:UIControlStateNormal];
-        [btn addTarget:self action:@selector(gotoApp:) forControlEvents:UIControlEventTouchUpInside];
-        
-        [btn setFrame:CGRectMake((self.view.frame.size.width - 150)/2, CGRectGetMaxY(self.view.frame)-150, 150, 50)];
-        [self.view insertSubview:btn aboveSubview:loopView];
+        UIButton *btn = (UIButton *)[self.view viewWithTag:99];
+        if (btn == nil) {
+            UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+            btn.tag= 99;
+            btn.layer.borderColor =  [UIColor redColor].CGColor;
+            btn.backgroundColor = [UIColor colorWithRed:1 green:0 blue:0 alpha:0.7];
+            btn.layer.cornerRadius = 10.0;
+            btn.layer.borderWidth = 1.0;
+            [btn setTitle:@"进入应用" forState:UIControlStateNormal];
+            [btn addTarget:self action:@selector(gotoApp:) forControlEvents:UIControlEventTouchUpInside];
+            
+            [btn setFrame:CGRectMake((self.view.frame.size.width - 150)/2, CGRectGetMaxY(self.view.frame)-150, 150, 50)];
+            [self.view insertSubview:btn aboveSubview:loopView];
+
+        }else {
+            [btn setHidden:NO];
+        }
+    }else {
+        UIButton *btn = (UIButton *)[self.view viewWithTag:99];
+        if (btn) {
+            [btn setHidden:YES];
+        }
     }
     
 }

@@ -19,6 +19,8 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
+    CGRect bounds = [UIScreen mainScreen].bounds;
+    
     NSMutableArray *tempArray=[[NSMutableArray alloc] init];
     [tempArray addPicWithName:@"1.jpg" title:@"1"];
     [tempArray addPicWithName:@"2.jpg" title:@"2"];
@@ -30,7 +32,7 @@
     
     RZLoopView *loopview =[[RZLoopView alloc] initLoopWithPics:tempArray withAuto:YES];
     loopview.RZdelegate=self;
-    loopview.frame=CGRectMake(0, 0, 320, 240);
+    loopview.frame=CGRectMake(0, 0, bounds.size.width, 240);
     [loopview upDate];
     
     [self.view addSubview:loopview];
